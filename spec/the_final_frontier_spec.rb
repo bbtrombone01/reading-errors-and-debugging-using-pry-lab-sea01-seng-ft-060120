@@ -4,4 +4,5 @@ describe "the_final_frontier" do
   it "`engage` should return the captain's log and crew greetings" do
     expect{ engage }.to output(/Captain's Log, star date /).to_stdout
     puts "this"
+  end
 end
