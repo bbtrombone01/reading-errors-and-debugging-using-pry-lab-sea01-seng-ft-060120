@@ -5,5 +5,6 @@ describe "the_final_frontier" do
     expect{ engage }.to output(/Captain's Log, star date /).to_stdout
     date = "this"
     puts date
+    binding.pry
   end
 end
